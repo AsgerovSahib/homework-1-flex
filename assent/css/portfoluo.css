@@ -1,0 +1,38 @@
+.portfolyo {
+  background-color: white;
+  padding: 30px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.64);
+  border: 2px solid rgba(128, 128, 128, 0.574);
+}
+
+.portfolyo h2 {
+  color: rgb(51, 172, 172);
+  text-transform: capitalize;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.portfolyo_items {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.item {
+  position: relative;
+}
+.item img {
+  width: 300px;
+}
+
+.item p {
+  top: 150px;
+  width: 300px;
+  position: absolute;
+  background-color: rgb(47, 161, 161);
+  color: white;
+  display: flex;
+  justify-content: center;
+  line-height: 60px;
+}

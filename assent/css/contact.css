@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+}
+
+.sosial {
+  flex-grow: 1;
+  max-width: 280px;
+}
+
+.contact {
+  flex-grow: 4;
+  background-color: white;
+  padding: 30px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.64);
+  border: 2px solid rgba(128, 128, 128, 0.574);
+}
+.contact label {
+  font-size: x-large;
+  font-weight: 600;
+  padding: 10px;
+}
+.contact input {
+  margin-top: 10px;
+  padding: 8px;
+  max-width: 600px;
+  width: 100%;
+ margin-bottom: 20px;
+}
+
+textarea{
+    margin-top: 10px;
+    padding: 8px;
+    max-width: 600px;
+    width: 100%;
+   margin-bottom: 20px;
+}
+.contact h2 {
+  color: rgb(51, 172, 172);
+  text-transform: capitalize;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}

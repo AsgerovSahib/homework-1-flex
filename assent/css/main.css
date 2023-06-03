@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/concrete_seamless.png);
+}
+
+
+   /* header */
+header{
+    width: "100%";
+    background-color: white;
+}
+
+
+.header{
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+    margin: auto;
+    text-transform: capitalize;
+
+    
+}
+
+
+
+.name h1 {
+    padding: 20px 40px ;
+    background-color: rgb(51, 172, 172);
+    color: white;
+ 
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: x-large;
+
+}
+.menu ul li a {
+    color: gray;
+    text-decoration: none;
+}
+.menu_mid{
+    border-left: 2px solid gray;
+    padding-left:20px;
+
+    border-right: 2px solid gray;
+    padding-right:20px;
+}
+            /* main */
+
+.container {
+    padding-top: 100px;
+
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    gap: 80px;
+    margin-bottom: 40px;
+    
+}
+
+.about{
+background-color: white;
+padding: 30px;
+line-height: 20px;
+color: rgba(0, 0, 0, 0.64);
+border: 2px solid rgba(128, 128, 128, 0.574);
+}
+.about h2{
+    color:rgb(51, 172, 172) ;
+    text-transform: capitalize;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px; padding-bottom: 20px;
+}
+.about img{
+   padding-right: 20px;
+    width: 240px;
+    float: left;
+}
+.about p{
+    margin-top: 20px;
+    padding: 20px;
+    display: inline;
+}
+
+
+
+.sosial{
+    border: 2px solid rgba(128, 128, 128, 0.574);
+
+    padding: 10px ;
+    text-transform: capitalize;
+    background-color: white;
+    font-weight: 600;
+    height: 200px;
+}
+.sosial p{
+    font-size: x-large;
+    color:rgb(51, 172, 172) ;
+    text-transform: capitalize;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px; padding-bottom: 20px;
+}
+
+.sosial .img_class{
+    display: flex;
+    gap: 10px   ;
+    
+}
+
+
+.sosial .img_class img{
+    width: 75px;
+}
+
+/* footer */
+
+.footer{
+    border-top: 10px solid rgb(51, 172, 172);
+    background-color: gray;
+    color: white;
+    display: flex;
+    padding: 20px;
+    font-size: x-large;
+    justify-content: center;
+}
+
